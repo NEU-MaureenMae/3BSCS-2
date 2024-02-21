@@ -1,6 +1,6 @@
 package sw;
 
 public interface Type {
-    public void attack();
-    public void defend();
+    public String attack();
+    public String defend();
 }

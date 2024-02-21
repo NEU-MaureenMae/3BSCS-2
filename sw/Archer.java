@@ -1,14 +1,14 @@
 package sw;
 
 public class Archer implements Type{
-    public void attack() {
-        System.out.println("Archer shoots an arrow!");
-
+    public String attack() {
+        ShootArrow shootArrow = new ShootArrow();
+        return "Archer ATTACKS:\n" + shootArrow.Attacks();
     }
 
-    public void defend(){
-        System.out.println("Using a shield to defend!");
-
+    public String defend(){
+        Dodge dodge = new Dodge();
+        return "Archer DEFENDS:\n" + dodge.Defends();
     }
     
 }

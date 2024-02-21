@@ -1,13 +1,14 @@
 package sw;
 
 public class Wizard implements Type{
-    public void attack() {
-        System.out.println("Wizard casts a spell!");
-
+    public String attack() {
+        CastSpell castSpell = new CastSpell();
+        return "Wizard ATTACKS:\n" + castSpell.Attacks();
     }
 
-    public void defend(){
-        System.out.println("Creating a magic barrier for defense!");
+    public String defend(){
+        MagicBarrier magicBarrier = new MagicBarrier();
+        return "Wizard DEFENDS:\n" + magicBarrier.Defends();
     }
     
 }

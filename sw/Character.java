@@ -7,12 +7,12 @@ public class Character {
         this.type = type;
     }
 
-    public void attack(){
-        type.attack();
+    public String attack(){
+        return type.attack();
     }
 
-    public void defend(){
-        type.defend();
+    public String defend(){
+        return type.defend();
     }
     
 }

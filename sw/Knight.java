@@ -1,14 +1,19 @@
 package sw;
 
 public class Knight implements Type {
-    public void attack() {
-        System.out.println("Knight attacks with a sword!");
+    public String attack() {
+        SwingSword swingSword = new SwingSword();
+        return "Knight attacks:\n" + swingSword.Attacks();
     }
 
-    public void defend(){
-        System.out.println("Using a shield to defend!");
-	    System.out.println("Dodgin to avoid attack!");
-        System.out.println("Creating a magic barrier for defense!");
+    public String defend(){
+        Shield shield = new Shield();
+        MagicBarrier magicBarrier = new MagicBarrier();
+        Dodge dodge = new Dodge();
+
+        return "Knight defends:\n" + shield.Defends() + "\n" +
+                magicBarrier.Defends() + "\n" + dodge.Defends();
+
     }
 
 }
