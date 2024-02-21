@@ -2,8 +2,8 @@ package sw;
 
 public class Knight implements Type {
     public String attack() {
-        SwingSword swingSword = new SwingSword();
-        return "Knight attacks:\n" + swingSword.Attacks();
+        Sword sword = new Sword();
+        return "Knight attacks:\n" + sword.Attacks();
     }
 
     public String defend(){

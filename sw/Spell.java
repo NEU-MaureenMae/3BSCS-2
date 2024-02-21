@@ -1,6 +1,6 @@
 package sw;
 
-public class CastSpell implements AttackStrat{
+public class Spell implements AttackStrat{
     public String Attacks(){
         return "--> attacks with a spell!";
     }

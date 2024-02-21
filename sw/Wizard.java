@@ -2,8 +2,8 @@ package sw;
 
 public class Wizard implements Type{
     public String attack() {
-        CastSpell castSpell = new CastSpell();
-        return "Wizard ATTACKS:\n" + castSpell.Attacks();
+        Spell spell = new Spell();
+        return "Wizard ATTACKS:\n" + spell.Attacks();
     }
 
     public String defend(){

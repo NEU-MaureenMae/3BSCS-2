@@ -2,8 +2,8 @@ package sw;
 
 public class Archer implements Type{
     public String attack() {
-        ShootArrow shootArrow = new ShootArrow();
-        return "Archer ATTACKS:\n" + shootArrow.Attacks();
+        Arrow arrow = new Arrow();
+        return "Archer ATTACKS:\n" + arrow.Attacks();
     }
 
     public String defend(){
