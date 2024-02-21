@@ -1,6 +1,4 @@
-# BSCS2
-Problem scenario:
-
+## Problem scenario:
 Suppose we have three types of characters in a GameApp:
 
 1. Knight: Attacks with a sword; uses 3 strategies to defend (shield, dodge, magic barrier)
