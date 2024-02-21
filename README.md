@@ -18,9 +18,10 @@ B.  AttackStrategy
 3.  SwingSword  
 
 Refactor the existing codes and provide the UML Diagram:
+
+```
 public class Character {
     private String type;
-
     public Character(String type) {
         this.type = type;
     }
@@ -47,5 +48,6 @@ public class Character {
             System.out.println("Using a shield to defend!"");
         }
     }
+```
 ## UML Diagram
 ![UML - Page 7](https://github.com/NEU-MaureenMae/strategyPattern/assets/142388792/46cecf59-6036-4a57-82d5-4a97aa27284b)
