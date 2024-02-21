@@ -1,4 +1,4 @@
-## Problem scenario:
+## Problem scenario
 Suppose we have three types of characters in a GameApp:
 
 1. Knight: Attacks with a sword; uses 3 strategies to defend (shield, dodge, magic barrier)
@@ -47,4 +47,5 @@ public class Character {
             System.out.println("Using a shield to defend!"");
         }
     }
-
+## UML Diagram
+![UML - Page 7](https://github.com/NEU-MaureenMae/strategyPattern/assets/142388792/46cecf59-6036-4a57-82d5-4a97aa27284b)
